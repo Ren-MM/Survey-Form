@@ -1,4 +1,10 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-
+label {
+    font-size: 18px;
+    display: block;
+}
+input {
+    display: block;
+}
