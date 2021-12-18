@@ -1,5 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     background-color: rgba(20, 114, 51, 0.726);
     margin: 0 10%;
     font-family: 'Ubuntu', sans-serif;
 }
+
