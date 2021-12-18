@@ -72,6 +72,144 @@
               <option value="not-sure">I'm not sure</option>
             </select>
           </div>
+          <div class="form-group">
+            <p>Is your Favourite City, popular?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="yes"
+                type="radio"
+                class="input-radio"
+                checked
+              />Yes</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="somewhat"
+                type="radio"
+                class="input-radio"
+              />Somewhat</label
+            >
+            <label>
+                <input
+                  name="user-recommend"
+                  value="no"
+                  type="radio"
+                  class="input-radio"
+                />No</label
+              >
+      
+            <label
+              ><input
+                name="user-recommend"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not sure</label
+            >
+          </div>
+      
+          <!-- <div class="form-group">
+            <p>
+              What do you love about your Favourite City?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="openSource">Open Source</option>
+            </select>
+          </div>-->
+      
+          <div class="form-group">
+            <p>
+              What do you love about your Favourite City?
+              <span class="clue">(Check all that apply)</span>
+            </p>
+      
+            <label
+              ><input
+                name="love"
+                value="the-vibe"
+                type="checkbox"
+                class="input-checkbox"
+              />The Vibe</label
+            >
+            <label>
+              <input
+                name="love"
+                value="the-people"
+                type="checkbox"
+                class="input-checkbox"
+              />The People</label
+            >
+            <label
+              ><input
+                name="love"
+                value="the-architecture"
+                type="checkbox"
+                class="input-checkbox"
+              />The Architecture</label
+            >
+            <label
+              ><input
+                name="love"
+                value="mix-of-cultures"
+                type="checkbox"
+                class="input-checkbox"
+              />Mix of Cultures</label
+            >
+            <label
+              ><input
+                name="love"
+                value="the-food"
+                type="checkbox"
+                class="input-checkbox"
+              />The Food</label
+            >
+            <label
+              ><input
+                name="love"
+                value="things-to-do"
+                type="checkbox"
+                class="input-checkbox"
+              />Things to do</label
+            >
+            <label
+              ><input
+                name="love"
+                value="history"
+                type="checkbox"
+                class="input-checkbox"
+              />History</label
+            >
+            <label
+              ><input
+                name="love"
+                value="outdoor-activities"
+                type="checkbox"
+                class="input-checkbox"
+              />Outdoor Activities</label
+            >
+          </div>
+      
+          <div class="form-group">
+            <p>Anything more you'd like to share about your Favourite City?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
     </form>
 
 </body>
